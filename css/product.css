@@ -1,0 +1,119 @@
+
+.product {
+    width: 268px;
+    height: 380px;
+    border: 1px solid #d6e9c6;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #F1F1F1;
+    margin-bottom: 30px;
+}
+.product .item{
+    background-color: #F1F1F1;
+    border-radius:10px 10px 0px 0px;
+    height: 60%;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.product-icon{
+    margin-top: -206px;
+    margin-left: 226px;
+    font-size: 20px;
+}
+.item_2{
+    padding-left: 20px;
+}
+.item_2 .star{
+    float: left;
+    margin-top: 10px;
+    padding: 0px 20px 0px 0px;
+}
+.star .star-box{
+    float: left;
+    width: 80px;
+    margin-left: calc((100% - 80px)/2);
+    height: 16px;
+    background-image: url("../img/star-off.png");
+    background-repeat: repeat-x;
+    background-size: 16px 16px;
+}
+.star-box .star-rate{
+    float: left;
+    height: 16px;
+    background-image: url("../img/star-on.png");
+    background-repeat: repeat-x;
+    background-size: 16px 16px;
+}
+.price{
+    font-size: 16px;
+    margin-top: 53px;
+    color: red;
+    font-weight: 700;
+}
+.Old_price{
+    color: #8c8c8c;
+    font-weight: 500;
+}
+.Sale_off{
+    color: #1f981f;
+    font-size: 15px;
+    font-weight: 500;
+}
+.product-shop {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ef6c00;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: -45px;
+    cursor: pointer;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.product:hover .icon {
+    opacity: 1;
+}
+
+.product-icon {
+    opacity: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.icon1 a,.icon2 a,.icon3 a{
+    transition: 3s;
+    color: black;
+}
+
+.product:hover .product-icon {
+    opacity: 1;
+}
+.icon1:hover{
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+.icon2:hover{
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+.icon3:hover{
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: scale(1); }
+    25% { transform: scale(0.8); }
+    50% { transform: scale(1); }
+    75% { transform: scale(0.8);}
+    100% { transform: scale(1); }
+}

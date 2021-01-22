@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Completed</title>
+    <link rel="stylesheet" href="libs/bootstrap.3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/fontawesome-pro/css/all.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="js/Header.js"></script>
+    <script src="js/Shopping Cart.js"></script>
+
+</head>
+<body>
+<!-- START HEADER -->
+<div id="Header"></div>
+<!-- END HEADER -->
+<!-- START SECTION BREADCRUMB -->
+<div class="breadcrumb_section bg_gray page-title-mini">
+    <div class="container"><!-- STRART CONTAINER -->
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="page-title">
+                    <h1>Order Completed</h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ol class="breadcrumb justify-content-md-end">
+                    <li class="breadcrumb-item"><a href="project.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="Shop_detail.html">Shop</a></li>
+                    <li class="breadcrumb-item active">Order Completed</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- END CONTAINER-->
+</div>
+<!-- END SECTION BREADCRUMB -->
+<div class="Your-Order_cpl container">
+    <div class="Oder-cpl-content">
+        <div class="tickV"><i style="margin-top: 16%" class="fas fa-check"></i></div>
+        <p class="oder-completed">Your Order Is Completed!</p>
+        <p class="content-oder">Thank you for your order! Your order is being processed and will be completed within 3-6 hours. You will receive an email confirmation when your order is completed.</p>
+        <div style="padding-left: 28%">
+            <a  class="btn btn-fill-out rounded-0 staggered-animation text-uppercase animated slideInLeft" href="Shop_detail.html" data-animation="slideInLeft" data-animation-delay="1.5s" style="animation-delay: 1.6s; opacity: 1;font-size:30px;color: white;border: 1px solid red">Continue Shopping</a>
+        </div>
+    </div>
+</div>
+<!-- START ELEMENT DESIGN -->
+<div class="section bg_default small_pt small_pb">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="heading_s1 mb-md-0 heading_light" style="margin-top: -50px">
+                    <h2>Subscribe Our Newsletter</h2>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="newsletter_form">
+                    <form>
+                        <input type="email" style="width: 100%" required="" class="form-input" placeholder="Enter Email Address">
+                        <button type="submit" class="btn" name="submit" value="Submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END ELEMENT DESIGN -->
+<!-- START FOOTER -->
+<div id="Footer"></div>
+<!-- END FOOTER -->
+
+<script>
+    $(document).ready(function(){
+        // Activate Carousel
+        $("#myCarousel").carousel("pause");
+
+        // Go to the previous item
+        $("#myBtn").click(function(){
+            $("#myCarousel").carousel("prev");
+        });
+
+        // Go to the next item
+        $("#myBtn2").click(function(){
+            $("#myCarousel").carousel("next");
+        });
+
+
+        // Enable Carousel Controls
+        $(".left").click(function(){
+            $("#myCarousel").carousel("prev");
+        });
+        $(".right").click(function(){
+            $("#myCarousel").carousel("next");
+        });
+    });
+</script>
+<script>
+    var header = document.querySelector('.bottom-header');
+    var origOffsetY = header.offsetTop;
+
+    function onScroll(e) {
+        window.scrollY >= origOffsetY ? header.classList.add('sticky') :
+            header.classList.remove('sticky');
+    }
+
+    document.addEventListener('scroll', onScroll);
+</script>
+<script type="text/javascript" src="js/Header.js"></script>
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+</html>
+

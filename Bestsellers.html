@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Best Sellers</title>
+    <link rel="stylesheet" href="libs/bootstrap.3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/fontawesome-pro/css/all.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+
+</head>
+<body>
+<!-- START HEADER -->
+<div id="Header"></div>
+<!-- END HEADER -->
+<!-- START SECTION BREADCRUMB -->
+<div class="breadcrumb_section bg_gray page-title-mini">
+    <div class="container"><!-- STRART CONTAINER -->
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="page-title">
+                    <h1>Best Sellers</h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ol class="breadcrumb justify-content-md-end">
+                    <li class="breadcrumb-item"><a href="product.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="Shop_detail.html">Products</a></li>
+                    <li class="breadcrumb-item active">Best Sellers</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- END CONTAINER-->
+</div>
+<!-- END SECTION BREADCRUMB -->
+<div class="section" style="padding: 100px 0">
+    <div class="container">
+        <div id="products_detail">
+
+        </div>
+        <div class="row">
+            <div class="col-12" style="padding-top: 50px">
+                <div role="tablist" aria-label="Entertainment">
+                    <button role="tab" aria-selected="true" aria-controls="nils-tab" id="nils">DESCRIPTION</button>
+                    <button role="tab"  aria-selected="false" aria-controls="agnes-tab" id="agnes" tabindex="-1">ADDITIONAL INFO</button>
+                    <button role="tab" aria-selected="false" aria-controls="complexcomplex" id="complex" tabindex="-1" data-deletable="">REVIEWS (2)</button>
+                </div>
+                <div tabindex="0" role="tabpanel" id="nils-tab" aria-labelledby="nils" class="product_detail_text">
+                    <p>We have nearly 20 years of experience in the field of manufacturing and branding bags. Our bags always meet the top quality standards in the manufacturing and distribution sector. With an excellent staff and a long experience in manufacturing and regulating bags, we will give you a great experience with good quality products.</p>
+                    <p>BagBag is one of the top sales websites in our # 1 sales sites. We always bring you the best and best quality products. With the motto "Customer is god" we will give you a lot of incentives when buying here. You will enjoy many of our promotions and customer gratitude policies</p>
+                </div>
+                <div tabindex="0" role="tabpanel" id="agnes-tab" aria-labelledby="agnes" hidden="">
+                    <div>
+                        <table class="table table-bordered" style="margin: 0">
+                            <tbody><tr>
+                                <td>Capacity</td>
+                                <td>5 Kg</td>
+                            </tr>
+                            <tr>
+                                <td>Color</td>
+                                <td>Black, Brown, Red,</td>
+                            </tr>
+                            <tr>
+                                <td>Water Resistant</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Material</td>
+                                <td>Artificial Leather</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div tabindex="0" role="tabpanel" id="complexcomplex" aria-labelledby="complex" hidden="">
+                    <div>
+                        <div class="comments">
+                            <h4 class="product_tab_title">2 Review For <span>Louis Vuitton Hand bag</span></h4>
+                            <ul class="list_none comment_list mt-4" style="list-style-type: none;">
+                                <li style="margin-top: 35px">
+                                    <div class="comment_img">
+                                        <img src="img/Giang.jpg" style="width: 100px;height: 100px;" alt="user1">
+                                    </div>
+                                    <div class="comment_block">
+                                        <p class="customer_meta">
+                                            <span class="review_author">Dao Giang</span>
+                                            <span class="comment-date">March 5, 2020</span>
+                                        </p>
+                                        <div class="description">
+                                            <p>Quality products, beautiful, reasonable price. Personally, I feel very satisfied with the product as well as the delivery method of the Shop. Delivery is very on time. Great.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="comment_img">
+                                        <img src="img/Son.jpg" style="width: 100px;height: 100px; alt="user2">
+                                    </div>
+                                    <div class="comment_block">
+                                        <p class="customer_meta">
+                                            <span class="review_author">Nam Son</span>
+                                            <span class="comment-date">June 17, 2020</span>
+                                        </p>
+                                        <div class="description">
+                                            <p>I am very satisfied with the products of the Shop. I will recommend a lot of friends to buy from the shop. It is great to become a familiar customer of the Shop. HiHi.!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="review_form field_form">
+                            <h4 style="">Add a review</h4>
+                            <form class="row mt-3">
+                                <div class="form-group col-12">
+                                    <div class="star_rating" style="padding: 11px">
+                                        <span data-value="1"><i class="far fa-star"></i></span>
+                                        <span data-value="2"><i class="far fa-star"></i></span>
+                                        <span data-value="3"><i class="far fa-star"></i></span>
+                                        <span data-value="4"><i class="far fa-star"></i></span>
+                                        <span data-value="5"><i class="far fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <div class="form-group col-12">
+                                    <textarea required="required" placeholder="Your review *" class="form-control" name="message" rows="4"></textarea>
+                                </div>
+                                <div class="form-group col-md-6" style="padding: 0 10px 0 0">
+                                    <input required="required" placeholder="Enter Name *" class="form-control" name="name" type="text">
+                                </div>
+                                <div class="form-group col-md-6" style="padding: 0 0 0 10px">
+                                    <input required="required" placeholder="Enter Email *" class="form-control" name="email" type="email">
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <button type="submit" class="btn btn-fill-out" name="submit" value="Submit">Submit Review</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- START ELEMENT DESIGN -->
+<div class="section bg_default small_pt small_pb">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="heading_s1 mb-md-0 heading_light" style="margin-top: -50px">
+                    <h2>Subscribe Our Newsletter</h2>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="newsletter_form">
+                    <form>
+                        <input type="email" style="width: 100%" required="" class="form-input" placeholder="Enter Email Address">
+                        <button type="submit" class="btn" name="submit" value="Submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/products_detail.js"></script>
+<!-- END ELEMENT DESIGN -->
+<!-- START FOOTER -->
+<div id="Footer"></div>
+<!-- END FOOTER -->
+
+<script>
+    $(document).ready(function(){
+        // Activate Carousel
+        $("#myCarousel").carousel("pause");
+
+        // Go to the previous item
+        $("#myBtn").click(function(){
+            $("#myCarousel").carousel("prev");
+        });
+
+        // Go to the next item
+        $("#myBtn2").click(function(){
+            $("#myCarousel").carousel("next");
+        });
+
+
+        // Enable Carousel Controls
+        $(".left").click(function(){
+            $("#myCarousel").carousel("prev");
+        });
+        $(".right").click(function(){
+            $("#myCarousel").carousel("next");
+        });
+    });
+</script>
+<script>
+    var header = document.querySelector('.bottom-header');
+    var origOffsetY = header.offsetTop;
+
+    function onScroll(e) {
+        window.scrollY >= origOffsetY ? header.classList.add('sticky') :
+            header.classList.remove('sticky');
+    }
+
+    document.addEventListener('scroll', onScroll);
+</script>
+<script>
+    $('.product_color_switch span').each(function() {
+        var get_color = $(this).attr('data-color');
+        $(this).css("background-color", get_color);
+    });
+
+    $('.product_color_switch span,.product_size_switch span').on("click", function() {
+        $(this).siblings(this).removeClass('active').end().addClass('active');
+    });
+    $('.plus').on('click', function() {
+        if ($(this).prev().val()) {
+            $(this).prev().val(+$(this).prev().val() + 1);
+        }
+    });
+    $('.minus').on('click', function() {
+        if ($(this).next().val() > 1) {
+            if ($(this).next().val() > 1) $(this).next().val(+$(this).next().val() - 1);
+        }
+    });
+
+</script>
+<script>
+    (function () {
+        var tablist = document.querySelectorAll('[role="tablist"]')[0];
+        var tabs;
+        var panels;
+        var delay = determineDelay();
+
+        generateArrays();
+
+        function generateArrays () {
+            tabs = document.querySelectorAll('[role="tab"]');
+            panels = document.querySelectorAll('[role="tabpanel"]');
+        };
+
+        // For easy reference
+        var keys = {
+            end: 35,
+            home: 36,
+            left: 37,
+            up: 38,
+            right: 39,
+            down: 40,
+            delete: 46
+        };
+
+        // Add or substract depending on key pressed
+        var direction = {
+            37: -1,
+            38: -1,
+            39: 1,
+            40: 1
+        };
+
+        // Bind listeners
+        for (i = 0; i < tabs.length; ++i) {
+            addListeners(i);
+        };
+
+        function addListeners (index) {
+            tabs[index].addEventListener('click', clickEventListener);
+            tabs[index].addEventListener('keydown', keydownEventListener);
+            tabs[index].addEventListener('keyup', keyupEventListener);
+
+            // Build an array with all tabs (<button>s) in it
+            tabs[index].index = index;
+        };
+
+        // When a tab is clicked, activateTab is fired to activate it
+        function clickEventListener (event) {
+            var tab = event.target;
+            activateTab(tab, false);
+        };
+
+        // Handle keydown on tabs
+        function keydownEventListener (event) {
+            var key = event.keyCode;
+
+            switch (key) {
+                case keys.end:
+                    event.preventDefault();
+                    // Activate last tab
+                    activateTab(tabs[tabs.length - 1]);
+                    break;
+                case keys.home:
+                    event.preventDefault();
+                    // Activate first tab
+                    activateTab(tabs[0]);
+                    break;
+
+                // Up and down are in keydown
+                // because we need to prevent page scroll >:)
+                case keys.up:
+                case keys.down:
+                    determineOrientation(event);
+                    break;
+            };
+        };
+
+        // Handle keyup on tabs
+        function keyupEventListener (event) {
+            var key = event.keyCode;
+
+            switch (key) {
+                case keys.left:
+                case keys.right:
+                    determineOrientation(event);
+                    break;
+                case keys.delete:
+                    determineDeletable(event);
+                    break;
+            };
+        };
+
+        // When a tablistâ€™s aria-orientation is set to vertical,
+        // only up and down arrow should function.
+        // In all other cases only left and right arrow function.
+        function determineOrientation (event) {
+            var key = event.keyCode;
+            var vertical = tablist.getAttribute('aria-orientation') == 'vertical';
+            var proceed = false;
+
+            if (vertical) {
+                if (key === keys.up || key === keys.down) {
+                    event.preventDefault();
+                    proceed = true;
+                };
+            }
+            else {
+                if (key === keys.left || key === keys.right) {
+                    proceed = true;
+                };
+            };
+
+            if (proceed) {
+                switchTabOnArrowPress(event);
+            };
+        };
+
+        // Either focus the next, previous, first, or last tab
+        // depening on key pressed
+        function switchTabOnArrowPress (event) {
+            var pressed = event.keyCode;
+
+            for (x = 0; x < tabs.length; x++) {
+                tabs[x].addEventListener('focus', focusEventHandler);
+            };
+
+            if (direction[pressed]) {
+                var target = event.target;
+                if (target.index !== undefined) {
+                    if (tabs[target.index + direction[pressed]]) {
+                        tabs[target.index + direction[pressed]].focus();
+                    }
+                    else if (pressed === keys.left || pressed === keys.up) {
+                        focusLastTab();
+                    }
+                    else if (pressed === keys.right || pressed == keys.down) {
+                        focusFirstTab();
+                    };
+                };
+            };
+        };
+
+        // Activates any given tab panel
+        function activateTab (tab, setFocus) {
+            setFocus = setFocus || true;
+            // Deactivate all other tabs
+            deactivateTabs();
+
+            // Remove tabindex attribute
+            tab.removeAttribute('tabindex');
+
+            // Set the tab as selected
+            tab.setAttribute('aria-selected', 'true');
+
+            // Get the value of aria-controls (which is an ID)
+            var controls = tab.getAttribute('aria-controls');
+
+            // Remove hidden attribute from tab panel to make it visible
+            document.getElementById(controls).removeAttribute('hidden');
+
+            // Set focus when required
+            if (setFocus) {
+                tab.focus();
+            };
+        };
+
+        // Deactivate all tabs and tab panels
+        function deactivateTabs () {
+            for (t = 0; t < tabs.length; t++) {
+                tabs[t].setAttribute('tabindex', '-1');
+                tabs[t].setAttribute('aria-selected', 'false');
+                tabs[t].removeEventListener('focus', focusEventHandler);
+            };
+
+            for (p = 0; p < panels.length; p++) {
+                panels[p].setAttribute('hidden', 'hidden');
+            };
+        };
+
+        // Make a guess
+        function focusFirstTab () {
+            tabs[0].focus();
+        };
+
+        // Make a guess
+        function focusLastTab () {
+            tabs[tabs.length - 1].focus();
+        };
+
+        // Detect if a tab is deletable
+        function determineDeletable (event) {
+            target = event.target;
+
+            if (target.getAttribute('data-deletable') !== null) {
+                // Delete target tab
+                deleteTab(event, target);
+
+                // Update arrays related to tabs widget
+                generateArrays();
+
+                // Activate the closest tab to the one that was just deleted
+                if (target.index - 1 < 0) {
+                    activateTab(tabs[0]);
+                }
+                else {
+                    activateTab(tabs[target.index - 1]);
+                };
+            };
+        };
+
+        // Deletes a tab and its panel
+        function deleteTab (event) {
+            var target = event.target;
+            var panel = document.getElementById(target.getAttribute('aria-controls'));
+
+            target.parentElement.removeChild(target);
+            panel.parentElement.removeChild(panel);
+        };
+
+        // Determine whether there should be a delay
+        // when user navigates with the arrow keys
+        function determineDelay () {
+            var hasDelay = tablist.hasAttribute('data-delay');
+            var delay = 0;
+
+            if (hasDelay) {
+                var delayValue = tablist.getAttribute('data-delay');
+                if (delayValue) {
+                    delay = delayValue;
+                }
+                else {
+                    // If no value is specified, default to 300ms
+                    delay = 300;
+                };
+            };
+
+            return delay;
+        };
+
+        //
+        function focusEventHandler (event) {
+            var target = event.target;
+
+            setTimeout(checkTabFocus, delay, target);
+        };
+
+        // Only activate tab on focus if it still has focus after the delay
+        function checkTabFocus (target) {
+            focused = document.activeElement;
+
+            if (target === focused) {
+                activateTab(target, false);
+            };
+        };
+    }());
+</script>
+<script type="text/javascript" src="js/Header.js"></script>
+
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+</html>
+
