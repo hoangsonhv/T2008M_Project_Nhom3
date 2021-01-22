@@ -53,7 +53,7 @@ function gridProduct_detail() {
             "                        </div>\n" +
             "                    </div>\n" +
             "                    <div class=\"cart_btn\">\n" +
-            "                        <button class=\"btn btn-fill-out btn-addtocart\" type=\"button\"><i class=\"icon-basket-loaded\"></i><a href='Shopping Cart.html'>Add to cart</a></button>\n" +
+            "                        <button class=\"btn btn-fill-out btn-addtocart \" style=\"margin-bottom: 1px\" type=\"button\"><i class=\"icon-basket-loaded\"></i><a href='Shopping Cart.html' style='color: black'>Add to cart</a></button>\n" +
             "                        <a class=\"add_compare\" href=\"#\"><i class=\"fal fa-random\"></i></a>\n" +
             "                        <a class=\"add_wishlist\" href=\"#\"><i class=\"fal fa-heart\"></i></a>\n" +
             "                    </div>\n" +
