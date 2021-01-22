@@ -93,10 +93,10 @@ function header() {
         "                            </div>\n" +
         "                        </li>\n" +
         "                        <li class=\"dropdown\" style=\"list-style-type: none\">\n" +
-        "                            <a class=\"nav-link dropdown-toggle active\" href=\"Shop_detail.html\">Shop&ensp;</a>\n" +
+        "                            <a class=\"nav-link dropdown-toggle active\" style=\"text-decoration: none\" href=\"Shop_detail.html\">Shop&ensp;</a>\n" +
         "                        </li>\n" +
-        "                        <li class=\"dropdown\" style=\"list-style-type: none\"><a class=\"nav-link dropdown-toggle active\" href=\"AboutUs.html\">About Us</a></li>\n" +
-        "                        <li style=\"list-style-type: none\"><a class=\"nav-link nav_item\" href=\"Contact.html\">Contact Us</a></li>\n" +
+        "                        <li class=\"dropdown\" style=\"list-style-type: none\"><a class=\"nav-link dropdown-toggle active\" style=\"text-decoration: none\" href=\"AboutUs.html\">About Us</a></li>\n" +
+        "                        <li style=\"list-style-type: none\"><a class=\"nav-link nav_item\" style=\"text-decoration: none\" href=\"Contact.html\">Contact Us</a></li>\n" +
         "                        <li class=\"dropdown\" style=\"list-style-type: none\">\n" +
         "                           <a data-toggle=\"dropdown\" class=\"nav-link dropdown-toggle active\" style=\"text-decoration: none\" href=\"#\">Support&ensp;<i class=\"fal fa-angle-down\"></i></a>\n" +
         "                           <div class=\"dropdown-menu\">\n" +
